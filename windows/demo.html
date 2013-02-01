@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>弹窗插件</title>
+    <script src="mywind.js"></script>
+    <link rel="stylesheet">
+</head>
+<body>
+<input type="button" value="otherPOP" onclick="t.open()" />
+
+<div id="tu" style="width: 600px; height: 300px;">
+    SeeU!
+    <input type="button" value="otherPOP" onclick="tt.open()" />
+</div>
+
+<div id="haha" style="width: 300px; height: 120px;">
+ tantankan
+</div>
+
+<script>
+var s=document.getElementById("tu")
+
+var t=new myWin({
+    SourceHtml:s
+});
+
+var tt=new myWin({
+                SourceHtml:document.getElementById("haha")
+            });
+</script>
+
+</body>
+</html>

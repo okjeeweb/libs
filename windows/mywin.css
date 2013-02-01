@@ -1,0 +1,6 @@
+body * { padding: 0px; margin: 0px;}
+.my-win { position: fixed; left: 0px; top: 0px; width: 100%; height: 100%;}
+.my-win-bg { position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; background: #000000; opacity: 0.4; filter:alpha(opacity=40);}
+.my-win-container { border: #ececec 1px solid; border-radius: 3px; margin: auto; background: #fff; z-index: 1; position: relative; top:20%;  }
+.my-win-title { width: 100%; height: 30px; line-height: 30px; font-size: 16px; font-family: "微软雅黑"; font-weight: bold; text-indent: 12px; border-bottom: 1px #ececec solid;}
+.my-win-close { background: #ececec; width: 32px; height: 32px; position: absolute; top: -1px; right: -1px; border-top-right-radius: 3px;}
